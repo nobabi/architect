@@ -195,11 +195,15 @@ main>section {
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+.featured-architect img{
+width: 100%;
+}
 /*responsive media query*/
 @media screen and (max-width:576px) {
 
     .navbar,
     .nav-links,
+    .features,
     .teams {
         flex-direction: column;
     }
@@ -224,7 +228,7 @@ main>section {
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams {
+    .teams,.features {
         flex-direction: column;
     }
     .our-features{
@@ -234,6 +238,11 @@ main>section {
        grid-template-columns: repeat(2,1fr);
         gap: 50px;
         justify-content: center;
+    }
+    #experience-badge{
+       
+        margin-left: 20px;
+        margin-top: 20px;
     }
 
 }
