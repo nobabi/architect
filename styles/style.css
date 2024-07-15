@@ -235,7 +235,9 @@ width: 100%;
         margin-left: 20px;
     }
 }
-
+h4{
+    text-align: center;
+}
 @media screen and (min-width:576px) and (max-width:992px) {
     .teams,.features {
         flex-direction: column;
